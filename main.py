@@ -1,3 +1,9 @@
 import matuv_demo
 
-print(matuv_demo.hello())
+
+def main() -> None:
+    matuv_demo.hello()
+
+
+if __name__ == "__main__":
+    main()
