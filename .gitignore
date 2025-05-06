@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Python version
+.python-version
+
+# Rust
+Cargo.lock
+target/
+
+**/*.so
+**/*.dylib
+**/*.dll
+**/*.lib
+**/*.a
+**/*.lib
+**/*.a
+
+uv.lock
